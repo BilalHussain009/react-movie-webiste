@@ -1,0 +1,225 @@
+form {
+    outline: 0;
+    float: left;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  }
+  
+  form > .textbox {
+    outline: 0;
+    height: 42px;
+    width: 40vw;
+    line-height: 42px;
+    padding: 0 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #212121;
+    border: 0;
+    float: left;
+    -webkit-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  form > .textbox:focus {
+    outline: 0;
+    background-color: #FFF;
+  }
+  
+  form > .button1 {
+    outline: 0;
+    background: none;
+    background-color: rgba(38, 50, 56, 0.8);
+    float: left;
+    height: 42px;
+    width: 100px;
+    text-align: center;
+    line-height: 42px;
+    border: 0;
+    color: #FFF;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  form > .button1:hover {
+    background-color: rgba(0, 150, 136, 0.8);
+  };
+  .container{
+    padding-top: 10%;
+    padding-left: 20%;
+  }
+  .button {
+    position: relative;
+    padding: 1em 1.5em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    margin: 1em 0.8em;
+    
+  }
+  .button.type1 {
+    color: white;
+    text-align: center;
+  }
+  .button.type1.type1::after, .button.type1.type1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: 2px solid;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+  }
+  .button.type1.type1::after {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #566473;
+    border-right-color: #566473;
+  }
+  .button.type1.type1::before {
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #566473;
+    border-left-color: #566473;
+  }
+  .button.type1.type1:hover:after, .button.type1.type1:hover:before {
+    width: 100%;
+    height: 100%;
+  }
+
+.btn{
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px #000;
+  color:#1b1b1b;
+}
+.homepage{
+  overflow-y: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("https://images2.alphacoders.com/141/141340.jpg");
+  
+  background-repeat: no-repeat;
+  background-size:contain;
+background-position:center;
+background-size: cover;
+};
+.search-button{
+  position: absolute;
+  left: 27vw;
+  top:40vh;
+  width: 50vw;
+};
+.logoimage{
+  padding-left: 13vw;
+  padding-bottom: 5vh;
+}
+@media (max-width: $desktop-breakpoint) {
+  .search-button{
+    position: absolute;
+    left: 1vw;
+    top:20vh;
+  
+    width: 95vw;
+  };
+
+  form {
+    outline: 0;
+    float: left;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding-left: 4vw;
+  }
+  
+  form > .textbox {
+    outline: 0;
+    height: 42px;
+    width: 70vw;
+    line-height: 42px;
+    padding: 0 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #212121;
+    border: 0;
+    float: left;
+    -webkit-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+    
+  }
+  
+  form > .textbox:focus {
+    outline: 0;
+    background-color: #FFF;
+  }
+  
+  form > .button1 {
+    
+    outline: 0;
+    background: none;
+    background-color: rgba(38, 50, 56, 0.8);
+    float: left;
+    height: 42px;
+    width: 20vw;
+    text-align: center;
+    line-height: 42px;
+    border: 0;
+    color: #FFF;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  form > .button1:hover {
+    background-color: rgba(0, 150, 136, 0.8);
+  };
+  .container{
+    padding-top: 12vh;
+    padding-left: 4vw;
+  }
+};
+@media screen and (min-width: 720px) and (max-width: 720px)
+              and (min-height: 1280px) and (max-height: 1280px) {
+                .logoimage {
+                  padding-left: 30vw;
+                  padding-bottom: 5vh;
+              }
+              .container {
+                padding-top: 12vh;
+                padding-left: 25vw;
+              }
+}

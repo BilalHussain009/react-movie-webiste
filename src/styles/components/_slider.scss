@@ -343,7 +343,7 @@
       }
   
       &__control {
-        $controlWidth: 100px;
+        $controlWidth: 90px;
   
         overflow: hidden;
         position: relative;
@@ -398,7 +398,9 @@
     }
   
   }
-  
+  p{
+    text-align: justify;
+  }
   
   /* NOT PART OF COMMON SLIDER STYLES */
   $font: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -562,6 +564,7 @@
     .fnc-slide__heading,
     .fnc-slide__action-btn,
     .fnc-nav__control {
+      text-align: center;
       font-family: $font;
     }
   }
@@ -817,4 +820,27 @@
     color: white;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.3rem;
+  }
+  @media (max-width: $desktop-breakpoint) {
+    .body{
+      position: relative;
+    padding: 10px;
+    background: #444;
+    border-bottom: 2px solid #ccc;
+    color: white;
+    font-family: georgia;
+    font-size: 14px;
+    line-height: 1.5;
+    box-shadow:inset 0 0 5px #333;
+    width: 80vw;
+      .description{
+        display: none;
+      }
+      .heading{
+        font-size:2rem;
+      }
+    }
+    .fnc-nav{
+      width: 100vw;
+    }
   }

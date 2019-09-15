@@ -17,9 +17,9 @@ const Slider=()=>(
       <p className="heading">
           Black Widow
       </p>
-    <p>
+    <p className="description">
     Simba idolises his father, King Mufasa, and takes to heart his own royal destiny.<br></br>
-     But not everyone in the kingdom celebrates the new cub's arrival.<br></br>
+     But not everyone in the kingdom celebrates the new cub's arrival.
       Scar, Mufasa's brother—and former heir to the throne—has plans of his own. The battle for Pride...
      
     </p>
@@ -37,9 +37,12 @@ const Slider=()=>(
         <div class="fnc-slide__inner">
         <div className="container1">
   <div className="body">
-    <p>
-      Hi, this is a paragraph in a box.
-     And I am simply typing some random text to fill in this box.
+  <p className="heading">
+  Captain America: The Winter Soldier
+      </p>
+    <p className="description">
+    Winter Soldier we will meet a great enemy in the Russian army called The Winter Soldier.
+    <br></br> This is a character that everyone thought was long dead now suddenly turns to be the murder weapon because he has been brainwashed.
     </p>
   </div>
     
@@ -55,7 +58,10 @@ const Slider=()=>(
         <div class="fnc-slide__inner">
         <div className="container1">
   <div className="body">
-    <p>
+  <p className="heading">
+  Iron Man
+      </p>
+    <p className="description">
       Hi, this is a paragraph in a box.
      And I am simply typing some random text to fill in this box.
     </p>
@@ -73,7 +79,10 @@ const Slider=()=>(
         <div class="fnc-slide__inner">
         <div className="container1">
   <div className="body">
-    <p>
+  <p className="heading">
+  Thor The dark World
+      </p>
+    <p className="description">
       Hi, this is a paragraph in a box.
      And I am simply typing some random text to fill in this box.
     </p>

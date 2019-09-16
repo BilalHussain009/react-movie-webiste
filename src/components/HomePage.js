@@ -6,7 +6,7 @@ const HomePage=()=>(
     <div className="homepage">
         <NavBar/>
         <div className="search-button">
-        <img className="logoimage" src="https://bmovies.co/wp-content/themes/gomovies/images/bmovies%20copy.png"></img>
+        <img className="logoimage" src="https://i.ibb.co/S6qY37h/bmovies-copy.png"></img>
           <SearchBox/>
           <div class="container">
           

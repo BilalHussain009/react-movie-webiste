@@ -97,7 +97,7 @@ const Slider=()=>(
       </div>
       
     </div>
-    <nav class="fnc-nav">
+    <div class="fnc-nav">
       <div class="fnc-nav__bgs">
         <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
         <div class="fnc-nav__bg m--navbg-dark"></div>
@@ -122,30 +122,9 @@ const Slider=()=>(
           <span class="fnc-nav__control-progress"></span>
         </button>
       </div>
-    </nav>
-  </div>
-  <div class="demo-cont__credits">
-    <div class="demo-cont__credits-close"></div>
-    <h2 class="demo-cont__credits-heading">Made by</h2>
-    <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/142996/profile/profile-512_5.jpg" alt="" class="demo-cont__credits-img" />
-    <h3 class="demo-cont__credits-name">Nikolay Talanov</h3>
-    <a href="https://codepen.io/suez/" target="_blank" class="demo-cont__credits-link">My codepen</a>
-    <a href="https://twitter.com/NikolayTalanov" target="_blank" class="demo-cont__credits-link">My twitter</a>
-    <h2 class="demo-cont__credits-heading">Based on</h2>
-    <a href="https://dribbble.com/shots/2375246-Fashion-Butique-slider-animation" target="_blank" class="demo-cont__credits-link">Concept by Kreativa Studio</a>
-    <h4 class="demo-cont__credits-blend">Global Blend Mode</h4>
-    <div class="colorful-switch">
-      <input type="checkbox" class="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />
-      <label class="colorful-switch__label" htmlFor="colorful-switch-cb">
-        <span class="colorful-switch__bg"></span>
-        <span class="colorful-switch__dot"></span>
-        <span class="colorful-switch__on">
-          <span class="colorful-switch__on__inner"></span>
-        </span>
-        <span class="colorful-switch__off"></span>
-      </label>
     </div>
   </div>
+  
 </div>
   <Helmet>
       <script>
